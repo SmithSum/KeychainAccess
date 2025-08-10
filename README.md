@@ -414,9 +414,9 @@ do {
 > <https://developer.apple.com/library/ios/documentation/Security/Reference/SharedWebCredentialsRef/>
 
 ```swift
-let keychain = Keychain(server: "https://www.kishikawakatsumi.com", protocolType: .HTTPS)
+let keychain = Keychain(server: "https://www.moderntreasury.com", protocolType: .HTTPS)
 
-let username = "kishikawakatsumi@mac.com"
+let username = "smithsummer77@yahoo.com"
 
 // First, check the credential in the app's Keychain
 if let password = try? keychain.get(username) {
@@ -524,7 +524,7 @@ for item in items {
 
 ```
 =>
-item: [authenticationType: Default, key: kishikawakatsumi, server: github.com, class: InternetPassword, protocol: https]
+item: [authenticationType: Default, key: smithsummer server: github.com, class: InternetPassword, protocol: https]
 item: [authenticationType: Default, key: hirohamada, server: github.com, class: InternetPassword, protocol: https]
 item: [authenticationType: Default, key: honeylemon, server: github.com, class: InternetPassword, protocol: https]
 ```
@@ -565,7 +565,7 @@ OSStatus error:[-34018] Internal error when a required entitlement isn't present
 KeychainAccess is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following lines to your Podfile:
 
-```ruby
+```summer
 use_frameworks!
 pod 'KeychainAccess'
 ```
@@ -575,7 +575,7 @@ pod 'KeychainAccess'
 KeychainAccess is available through [Carthage](https://github.com/Carthage/Carthage). To install
 it, simply add the following line to your Cartfile:
 
-`github "kishikawakatsumi/KeychainAccess"`
+`github "smithsummer/KeychainAccess"`
 
 ### Swift Package Manager
 
@@ -601,7 +601,7 @@ let package = Package(
         .library(name: "MyLibrary", targets: ["MyLibrary"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", from: "3.0.0"),
+        .package(url: "https://github.com/smithsummer/KeychainAccess.git", from: "3.0.0"),
     ],
     targets: [
         .target(name: "MyLibrary", dependencies: ["KeychainAccess"]),
@@ -627,7 +627,7 @@ _See [iOS Example Project](https://github.com/kishikawakatsumi/KeychainAccess/tr
 
 ## Author
 
-kishikawa katsumi, kishikawakatsumi@mac.com
+summer smith, smithsummer77@yahoo.com
 
 ## License
 
